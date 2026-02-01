@@ -1,9 +1,0 @@
-new file: .gitignore
-new file: .env.example
-new file: requirements.txt
-new file: Procfile
-new file: render.yaml
-new file: README.md
-new file: app4.py
-new file: templates/index.html
-new file: static/...
