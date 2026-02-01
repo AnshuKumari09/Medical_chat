@@ -1,0 +1,39 @@
+# ─── Secrets ──────────────────────
+.env
+.env.*
+
+# ─── Virtual env ──────────────────
+medical_env/
+venv/
+.venv/
+env/
+
+# ─── Python cache ─────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ─── OS files ─────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── FAISS index (55 MB, not used by app4.py) ──
+faiss_index/
+
+# ─── All PDF files ────────────────
+*.pdf
+
+# ─── Data folders ─────────────────
+encyclopedia_data/
+medlineplus_data/
+who_data/
+who_pdfs/
+
+# ─── Large JSON data files ────────
+all_drugs_discovered.json
+all_drugs_urls.json
+discovered_drugs.json
+discovered_urls.json
+
+# ─── Temp / Lock files ────────────
+~$*
